@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Space - Galaxies</title>
+  <link rel="icon" type="image/png" href="https://cdn3.iconfinder.com/data/icons/earth-and-space/512/saturn-512.png" />
+  <style>
+    html {
+      scroll-behavior: smooth; 
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      background-image: url("https://th.bing.com/th/id/R.42b3a2db8d991db7cd4d1375e39f7b0b?rik=6UgN9t0R4TY2mQ&pid=ImgRaw&r=0");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+
+    .nav-container a {
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+      transition: all 0.2s ease-in-out;
+    }
+
+    .nav-container a:hover {
+      background-color: white !important;
+      color: black !important;
+      transform: scale(1.05);
+      box-shadow: 0 0 10px white;
+    }
+
+    .galaxy-card {
+      margin: 60px 20px;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.55);
+      border-radius: 10px;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+<div class="nav-container" style="display: flex; gap: 20px; justify-content: center; margin-top: 20px; flex-wrap: wrap;">
+  <a href="#Milky-Way" style="background-color: wheat;">Milky Way</a>
+  <a href="#Andromeda-Galaxy" style="background-color: lightblue;">Andromeda Galaxy</a>
+  <a href="#Triangulum-Galaxy" style="background-color: skyblue;">Triangulum Galaxy</a>
+  <a href="#Messier-87" style="background-color: silver;">Messier 87 (M87)</a>
+  <a href="#Sombrero-Galaxy" style="background-color: goldenrod;">Sombrero Galaxy</a>
+  <a href="#Whirlpool-Galaxy" style="background-color: hotpink;">Whirlpool Galaxy (M51)</a>
+</div>
+
+<div style="text-align: center; margin: 40px auto; max-width: 800px; padding: 20px; color: white; background-color: rgba(0,0,0,0.4); border-radius: 10px;">
+  <h2>Welcome to the World of Galaxies</h2>
+  <p>Galaxies are vast systems of stars, gas, dust, and dark matter held together by gravity. They come in various shapes and sizes, from grand spirals to giant ellipticals. Here, you'll explore some of the most fascinating galaxies in our universe — each one with its own story, structure, and mysteries to uncover.</p>
+</div>
+
+<div id="Milky-Way" class="galaxy-card">
+  <h1>Milky Way</h1>
+  <p>The Milky Way is the galaxy we live in. It's a huge spiral galaxy with over 100 billion stars, including our Sun!</p>
+  <p>It looks like a glowing band in the night sky because we're inside it, seeing it edge-on.</p>
+  <p>The galaxy has spiral arms that stretch out like a pinwheel, and it’s about 100,000 light-years wide.</p>
+  <p>At its center is a supermassive black hole called Sagittarius A*.</p>
+  <p><strong>🔹 Fun Facts:</strong></p>
+  <ul>
+    <li>Earth is located in the Orion Arm of the Milky Way.</li>
+    <li>It’s spinning at about 828,000 km/h, but we don’t feel it.</li>
+    <li>It may eventually collide with the Andromeda Galaxy — but not for another 4 billion years!</li>
+  </ul>
+</div>  
+
+<div id="Andromeda-Galaxy" class="galaxy-card">
+  <h1>Andromeda Galaxy</h1>
+  <p>The Andromeda Galaxy is the closest large galaxy to our Milky Way and one of the few galaxies visible to the naked eye from Earth. It’s located about 2.5 million light-years away, which, in cosmic terms, makes it our next-door neighbor.</p>
+  <p>Andromeda is a massive spiral galaxy—much like the Milky Way, but even bigger. It has over a trillion stars, making it more than twice as populated as our own galaxy.</p>
+  <p>One of the most fascinating facts about Andromeda is that it’s actually on a collision course with the Milky Way. But don’t panic—it’s moving at about 110 km/s, and the collision won’t happen for another 4 billion years. When it does, the two galaxies will merge into a giant elliptical or lenticular galaxy, sometimes nicknamed “Milkomeda.”</p>
+  <p><strong>🔹 Fun facts:</strong></p>
+  <ul>
+    <li>It's also called Messier 31 or M31.</li>
+    <li>You can spot it in the night sky without a telescope if the skies are dark enough.</li>
+    <li>It's part of the Local Group of galaxies, which includes the Milky Way, Triangulum, and a bunch of smaller dwarf galaxies.</li>
+  </ul>
+</div>
+
+<div id="Triangulum-Galaxy" class="galaxy-card">
+  <h1>Triangulum Galaxy</h1>
+  <p>The Triangulum Galaxy is the third-largest galaxy in our Local Group, after the Milky Way and Andromeda. It's also known as Messier 33 (M33) and is located about 3 million light-years away from Earth.</p>
+  <p>Unlike the massive Milky Way and Andromeda, Triangulum is relatively small—only about 40,000 light-years wide. But don't let its size fool you—it still contains around 40 billion stars and features stunning spiral arms.</p>
+  <p>One cool thing about the Triangulum Galaxy is that it's incredibly rich in star-forming regions, especially one called NGC 604, which is one of the largest known in any nearby galaxy.</p>
+  <p><strong>🔹 Fun facts:</strong></p>
+  <ul>
+    <li>It might be gravitationally bound to Andromeda, possibly orbiting it.</li>
+    <li>It’s visible through binoculars or a small telescope.</li>
+    <li>Its beautiful, loosely wound spiral arms make it a favorite for astrophotographers.</li>
+  </ul>
+</div>
+
+<div id="Messier-87" class="galaxy-card">
+  <h1>Messier 87 (M87)</h1>
+  <p>Messier 87 is a giant elliptical galaxy located about 53 million light-years from Earth in the constellation Virgo. Unlike spiral galaxies, M87 does not have sweeping spiral arms; instead, it looks like a massive, glowing cosmic sphere made of older stars.</p>
+  <p>M87 is famous for harboring an incredibly active supermassive black hole at its core. This black hole shoots out a massive jet of high-energy plasma that stretches thousands of light-years out into space.</p>
+  <p><strong>🔹 Fun facts:</strong></p>
+  <ul>
+    <li>The black hole inside M87 was the first black hole ever to be directly photographed in history by the Event Horizon Telescope!</li>
+    <li>It contains several trillion stars, dwarfing our own Milky Way.</li>
+    <li>It holds an astonishing collection of over 12,000 globular clusters of stars.</li>
+  </ul>
+</div>
+
+<div id="Sombrero-Galaxy" class="galaxy-card">
+  <h1>Sombrero Galaxy</h1>
+  <p>The Sombrero Galaxy, officially known as Messier 104 (M104), is one of the most visually striking galaxies in the universe. It’s located about 31 million light-years away in the constellation Virgo.</p>
+  <p>What makes it stand out is its appearance—it looks like a Mexican sombrero hat, with a bright, round bulge at the center and a thick, dark dust lane encircling it. This bold shape is caused by the galaxy’s massive central bulge of stars and a nearly edge-on view from Earth.</p>
+  <p>It’s a spiral galaxy, but some astronomers consider it a hybrid because of its unusually large central bulge and huge number of globular clusters—over 2,000, which is way more than the Milky Way has.</p>
+  <p><strong>🔹 Fun facts:</strong></p>
+  <ul>
+    <li>It contains hundreds of billions of stars.</li>
+    <li>A supermassive black hole is believed to sit at its center.</li>
+    <li>It shines with the brightness of 800 billion Suns.</li>
+  </ul>
+</div>
+
+<div id="Whirlpool-Galaxy" class="galaxy-card">
+  <h1>Whirlpool Galaxy (M51)</h1>
+  <p>The Whirlpool Galaxy, also known as Messier 51 or M51, is a stunning and classic example of a spiral galaxy, located about 31 million light-years away in the constellation Canes Venatici.</p>
+  <p>What makes it truly special is its perfect spiral structure—it's like a galactic pinwheel with arms gracefully winding outward, filled with bright stars, gas, and dust. If you imagine what a galaxy "should" look like, the Whirlpool is it!</p>
+  <p>One of the coolest things about the Whirlpool Galaxy is that it’s interacting with a smaller companion galaxy, NGC 5195. The two are connected by a bridge of gas and stars, and their gravitational dance is what makes M51’s spiral arms even more pronounced.</p>
+  <p><strong>🔹 Fun facts:</strong></p>
+  <ul>
+    <li>It’s often studied to understand galaxy formation and structure.</li>
+    <li>The Whirlpool Galaxy is around 60,000 light-years wide.</li>
+    <li>It’s one of the first galaxies ever classified as a spiral.</li>
+  </ul>
+</div>
+
+</body>
+</html>

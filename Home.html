@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Space</title>
+  <link rel="icon" type="image/png" href="https://cdn3.iconfinder.com/data/icons/earth-and-space/512/saturn-512.png" />
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+    body {
+      height: 100vh;
+      background-image: url("https://storywarren.com/wp-content/uploads/2016/09/space-1.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    nav {
+        background: rgba(0, 0, 0, 0.6);
+        padding: 15px 0;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav a {
+        color: #00ffff;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1rem;
+        padding: 5px 10px;
+        border-radius: 4px;
+        /* FIXED: Moved transition here so it animates smoothly both smoothly IN and OUT */
+        transition: background-color 0.3s ease, color 0.3s ease; 
+    }
+
+
+    nav a:hover {
+        background-color: #00cccc;
+        color: black;
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+    <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="Planets.html">Planets</a></li>
+        <li><a href="Galaxies.html">Galaxies</a></li>
+        <li><a href="About.html">About</a></li>
+    </ul>
+</nav>
+
+ <h1 style="text-align: center; color:white; margin-top: 80px;">Welcome, hope you enjoy the amazing space.</h1>
+ <p style="text-align: center; color:white;">Enjoy this beautiful view or move on to see the planets</p>
+
+ <div style="text-align: center; margin-top: 50px;">
+    <a href="Planets.html" style="background-color: #00ffea; color: rgb(0, 0, 0); padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">Explore Planets</a>
+ </div>
+
+  <div style="text-align: center; margin-top: 30px;">
+    <a href="Galaxies.html" style="background-color: #00ffea; color: rgb(0, 0, 0); padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">Explore Galaxies</a>
+  </div>
+
+ <div style="text-align: center; margin-top: 30px;">
+    <a href="About.html" style="background-color: #00ffea; color: rgb(0, 0, 0); padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">About</a>
+ </div>
+
+</body>
+</html>

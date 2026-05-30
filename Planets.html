@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Planets Explorer</title>
+  <link rel="icon" type="image/png" href="https://cdn3.iconfinder.com/data/icons/earth-and-space/512/saturn-512.png" />
+  <style>
+    html {
+      scroll-behavior: smooth; 
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      background-image: url("https://wallpaperaccess.com/full/17538.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+
+    .nav-container a {
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+      transition: all 0.2s ease-in-out;
+    }
+
+    .nav-container a:hover {
+      background-color: white !important; 
+      color: black;
+      box-shadow: 0 0 15px white;
+      transform: scale(1.05);
+    }
+
+    .planet-card {
+      margin: 60px 20px;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.65); 
+      border-radius: 10px;
+      color: white;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    
+    .planet-card h1 {
+      margin-top: 0;
+    }
+  </style>
+</head>
+<body>
+
+<div class="nav-container" style="display: flex; gap: 20px; justify-content: center; margin-top: 20px; flex-wrap: wrap;">
+  <a href="#Mercury" style="background-color: gray;">Mercury</a>
+  <a href="#Mars" style="background-color: red;">Mars</a>
+  <a href="#Venus" style="background-color: yellow;">Venus</a>
+  <a href="#Earth" style="background-color: green;">Earth</a>
+  <a href="#Neptune" style="background-color: deepskyblue;">Neptune</a>
+  <a href="#Uranus" style="background-color: cyan;">Uranus</a>
+  <a href="#Saturn" style="background-color: gold;">Saturn</a>
+  <a href="#Jupiter" style="background-color: orange;">Jupiter</a>
+</div>
+
+<div id="Mercury" class="planet-card">
+  <h1>Mercury</h1>
+  <p><strong>Basic Info:</strong> Mercury is the smallest planet in our solar system. It's the closest planet to the Sun. It has no atmosphere, so temperatures swing from very hot to freezing cold.</p>
+  <p><strong>🔹 Fun Facts:</strong> A day on Mercury (sunrise to sunrise) lasts 176 Earth days. A year on Mercury (one orbit around the Sun) takes only 88 Earth days. Mercury has no moons — it's too small to hold them.</p>
+  <p><strong>🔹 Surface:</strong> Looks like our Moon — full of craters from ancient asteroid impacts. It has no water, air, or weather like Earth.</p>
+  <p><strong>🔹 Why it's special:</strong> Mercury moves the fastest around the Sun: about 47 km per second. It’s named after the Roman messenger god, Mercury, known for speed.</p>
+</div>
+
+<div id="Mars" class="planet-card">
+  <h1>Mars</h1>
+  <p><strong>Basic Info:</strong> Mars is the 4th planet from the Sun. It's known as the Red Planet because of its reddish appearance, caused by iron oxide (rust) on its surface. Mars is smaller than Earth, but it still has seasons, polar ice caps, and dust storms.</p>
+  <p><strong>🔹 Fun Facts:</strong> Mars has the largest volcano in the solar system — Olympus Mons, which is 3x taller than Mount Everest! It also has a huge canyon called Valles Marineris, over 4,000 km long. A day on Mars is about 24.6 hours — almost like Earth’s day. A year on Mars lasts about 687 Earth days.</p>
+  <p><strong>🔹 Moons:</strong> Mars has two small moons: Phobos and Deimos.</p>
+  <p><strong>🔹 Exploration:</strong> Many space missions have landed robots on Mars. NASA’s Perseverance rover is currently exploring the surface. Scientists think Mars might have had water in the past — and maybe even life.</p>
+</div>
+
+<div id="Venus" class="planet-card">
+  <h1>Venus</h1>
+  <p><strong>Basic Info:</strong> Venus is the second planet from the Sun and is similar in size to Earth. It's often called Earth’s twin, but it’s a very different world. Venus is covered in thick clouds that trap heat, making it the hottest planet in our solar system.</p>
+  <p><strong>🔹 Fun Facts:</strong> Venus has surface temperatures over 470°C — hotter than Mercury! Its atmosphere is made of carbon dioxide and sulfuric acid. A day on Venus lasts 243 Earth days, and it spins in the opposite direction of most planets. You would see the Sun rise in the west and set in the east!</p>
+  <p><strong>🔹 Surface:</strong> Venus has many volcanoes, mountains, and vast rocky plains. But it's hard to see its surface directly because of the thick clouds.</p>
+  <p><strong>🔹 Exploration:</strong> No human has visited Venus, but several spacecraft have. NASA and other space agencies have sent probes to study its extreme conditions.</p>
+</div>
+
+<div id="Earth" class="planet-card">
+  <h1>Earth</h1>
+  <p><strong>Basic Info:</strong> Earth is the third planet from the Sun and the only one known to support life. It has a breathable atmosphere, liquid water, and a protective magnetic field. Earth is the perfect distance from the Sun, making it just the right temperature for life.</p>
+  <p><strong>🔹 Fun Facts:</strong> Earth is about 71% water and 29% land. It has one natural satellite — the Moon. A day on Earth lasts 24 hours, and a year is 365.25 days. That extra 0.25 is why we have a leap year every four years.</p>
+  <p><strong>🔹 Surface:</strong> Earth has mountains, oceans, forests, deserts, and polar ice caps. It is the most geologically active planet with volcanoes, earthquakes, and shifting continents.</p>
+  <p><strong>🔹 Exploration:</strong> Earth is the only planet where humans have walked. Satellites orbit Earth, helping us with communication, weather, and science. From space, Earth looks like a beautiful blue marble.</p>
+</div>
+
+<div id="Neptune" class="planet-card">
+  <h1>Neptune</h1>
+  <p><strong>Basic Info:</strong> Neptune is the 8th and farthest planet from the Sun. It's an ice giant made mostly of hydrogen, helium, and icy materials. Its deep blue color comes from methane in its atmosphere.</p>
+  <p><strong>🔹 Fun Facts:</strong> Neptune has the strongest winds in the solar system — up to 2,100 km/h! It was the first planet discovered by math, before being seen through a telescope. A day on Neptune lasts about 16 hours, while a year is 165 Earth years long. It’s extremely cold, with temperatures around -200°C.</p>
+  <p><strong>🔹 Moons & Rings:</strong> Neptune has 14 known moons — the biggest is Triton, which orbits backward. It also has faint rings, made of dust and ice particles.</p>
+  <p><strong>🔹 Exploration:</strong> Only one spacecraft, Voyager 2, has flown by Neptune in 1989. It sent back stunning images of its blue clouds and dark storms.</p>
+</div>
+
+<div id="Uranus" class="planet-card">
+  <h1>Uranus</h1>
+  <p><strong>Basic Info:</strong> Uranus is the 7th planet from the Sun and is classified as an ice giant. It has a pale blue-green color due to methane in its atmosphere. Uranus is unique because it rotates on its side, tilted about 98 degrees!</p>
+  <p><strong>🔹 Fun Facts:</strong> A day on Uranus lasts about 17 hours, while a year takes 84 Earth years. Its extreme tilt causes long seasons — each lasting over 20 years. Winds on Uranus can blow up to 900 km/h. It’s extremely cold — reaching down to -224°C, one of the coldest planets.</p>
+  <p><strong>🔹 Moons & Rings:</strong> Uranus has 27 known moons, many named after Shakespeare characters. It also has 13 faint rings, which are hard to see from Earth.</p>
+  <p><strong>🔹 Exploration:</strong> Like Neptune, Uranus was visited only once — by Voyager 2 in 1986. Scientists still hope to send another mission to explore it up close someday.</p>
+</div>
+
+<div id="Saturn" class="planet-card">
+  <h1>Saturn</h1>
+  <p><strong>Basic Info:</strong> Saturn is the 6th planet from the Sun and the second-largest in our solar system. It’s a gas giant made mostly of hydrogen and helium, with no solid surface. It’s best known for its stunning ring system, visible even from Earth with a small telescope.</p>
+  <p><strong>🔹 Fun Facts:</strong> Saturn’s rings are made of ice, rock, and dust, and stretch out over 280,000 km, but are only a few meters thick. A day on Saturn lasts about 10.7 hours, and a year is 29.5 Earth years. Even though it’s huge, Saturn is so light it would float in water!</p>
+  <p><strong>🔹 Moons:</strong> Saturn has over 140 moons, including Titan, which is bigger than Mercury. Titan has a thick atmosphere and even lakes of liquid methane.</p>
+  <p><strong>🔹 Exploration:</strong> NASA’s Cassini mission studied Saturn for over 13 years. It gave us amazing images and data before diving into the planet in 2017.</p>
+</div>
+
+<div id="Jupiter" class="planet-card">
+  <h1>Jupiter</h1>
+  <p><strong>Basic Info:</strong> Jupiter is the 5th planet from the Sun and the largest in our solar system. It’s a massive gas giant, mostly made of hydrogen and helium.</p>
+  <p><strong>🔹 Fun Facts:</strong> Jupiter has a famous Great Red Spot — a giant storm larger than Earth, raging for centuries. It spins super fast — a day lasts only about 10 hours. A year on Jupiter equals about 12 Earth years.</p>
+  <p><strong>🔹 Moons & Rings:</strong> Jupiter has 95 known moons — the biggest ones are called the Galilean moons: Io, Europa, Ganymede, and Callisto. Ganymede is the largest moon in the solar system — even bigger than Mercury!</p>
+  <p><strong>🔹 Exploration:</strong> NASA’s Juno spacecraft is currently orbiting Jupiter, studying its atmosphere and core.</p>
+</div>
+
+<div style="text-align: center; margin-top: 50px; margin-bottom: 50px;">
+  <a href="Galaxies.html" style="background-color: #00ffea; color: rgb(0, 0, 0); padding: 15px 30px; text-decoration: none; border-radius: 5px; font-weight: bold; font-size: 1.1rem; box-shadow: 0 4px 10px rgba(0,255,234,0.3);">Explore Galaxies</a>
+  <h2 style="color: white; margin-top: 20px; font-weight: normal; font-size: 1rem;">Press the button above to go to Galaxies and get to know about them more.</h2>
+</div>
+
+</body>
+</html>
